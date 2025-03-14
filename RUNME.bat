@@ -1,2 +1,19 @@
 @echo off
-shutdown /s /f /t 0
+color 0a
+cls
+echo Warning: A virus has been detected!
+echo Scanning for threats...
+ping localhost -n 10 >nul
+echo Virus found! Deleting...
+ping localhost -n 10 >nul
+echo Deleting 1%...
+ping localhost -n 5 >nul
+echo Deleting 2%...
+ping localhost -n 5 >nul
+echo Deleting 3%...
+ping localhost -n 5 >nul
+echo Restarting system...
+ping localhost -n 10 >nul
+cls
+echo Dont run random files!
+pause
